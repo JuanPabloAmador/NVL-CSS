@@ -1,0 +1,11 @@
+img{
+    padding: 32px;
+    background-color: yellow;
+    border: solid 16px;
+    border-color: orangered;
+    margin: 10px;
+   }
+div{
+    display: inline-block;
+    background-color: red;
+}
