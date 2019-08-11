@@ -4,9 +4,7 @@ div:first-of-type {
     min-width: 600px;
 }
 
-h1,
-h2,
-h3 {
+h1, h2, h3 {
     padding: 2px;
     background-color: red;
     color: white;
@@ -26,8 +24,7 @@ div.imagen {
     justify-content: center;
 }
 
-.columnaIzquierda,
-.columnaDerecha {
+.columnaIzquierda, .columnaDerecha {
     width: 49%;
     display: inline-block;
 }
@@ -51,4 +48,9 @@ ul li:hover {
 ol li:hover {
     color: rgb(165, 116, 42);
     font-size: 110%;
+}
+
+div.formulario {
+    padding: 5px;
+    border: 2px solid rgb(117, 107, 13)
 }
