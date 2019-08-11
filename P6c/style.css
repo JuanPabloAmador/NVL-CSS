@@ -1,0 +1,54 @@
+div:first-of-type {
+    background-color: beige;
+    align-content: center;
+    min-width: 600px;
+}
+
+h1,
+h2,
+h3 {
+    padding: 2px;
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+}
+
+h1 {
+    text-align: center;
+}
+
+div.imagen img {
+    width: 500px;
+}
+
+div.imagen {
+    display: flex;
+    justify-content: center;
+}
+
+.columnaIzquierda,
+.columnaDerecha {
+    width: 49%;
+    display: inline-block;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li::before {
+    content: "\2022";
+    color: red;
+    font-weight: bold;
+    display: inline-block width: 1em;
+    margin-left: -1em;
+}
+
+ul li:hover {
+    color: rgb(30, 194, 153)
+}
+
+ol li:hover {
+    color: rgb(165, 116, 42);
+    font-size: 110%;
+}
